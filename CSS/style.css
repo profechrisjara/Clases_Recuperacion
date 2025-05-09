@@ -1,10 +1,49 @@
-/* Aquí estoy trabajando en el encabezado o título  */
-.Encabezado {
-    background-color: #dc143c;
+/* GLOBAL */
+.tituloEmpresa {
+    color: azure;
+    font-size: 25px;
+}
+/* Caja Madre HERO presentacion */
+.barrapresentacion {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 60px;
+    background-color: red;
 }
 
-/* Aqui voy a estilizar mi título de la website  */
+/* Cajas hijas - HERO PRESENTACION */
+.nombreEmpresa {
+    width: 33%;
+    height: 60px;
+}
 
-.TituloWEbSite {
-    color: azure;
+/* Cajas hijas - HERO PRESENTACION */
+.botonWhatsapp {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+    height: 60px;
+    /* background-color: rgb(2, 132, 30); */
+}
+
+/* imagen del boton */
+.botonWhatsapp2 {
+    width: 300px;
+    height: 80px;
+}
+
+/* Cajas hijas - HERO PRESENTACION */
+.redesSociales {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 33%;
+    height: 60px;
+    /* background-color: rgb(22, 139, 222); */
+}
+
+.redessocialesicono {
+    width: 40px;
+    height: 40px;
 }
